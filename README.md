@@ -4,6 +4,22 @@
 
 ----
 
+### Configuracion de la The BD Postgres
+
+Se adjunta el archivo docker-compose.yml que contiene la configuracion para levatar un PostgresSQL con docker (docker-compose)
+
+#### USO
+
+1. Levantar el contenedor ejecutando la siguiente instruccion
+
+  ```batch
+    docker-compose up -d
+  ```
+
+2. La BD se expone por default en el puerto ***5432*** y la contraseña ***password****, en caso de contar ya con una BD favor de ajustar la contraseña en el Back en el archivo **application.properties**
+
+3. Se adjunta el archivo **db.sql** con las querys modificadas para ejecutarse de manera correcta en la BD
+
 ### Levantar el Back
 
 
