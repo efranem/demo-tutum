@@ -1,0 +1,254 @@
+{
+	"info": {
+		"_postman_id": "25750e29-029f-4512-b057-90b39a9633c3",
+		"name": "tutum",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25296336"
+	},
+	"item": [
+		{
+			"name": "calificacion",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"idAlumno\": 1,\n    \"idMateria\": 3,\n    \"calificacion\": 5.0\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/controlEscolar/calificacion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"controlEscolar",
+						"calificacion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "alumno",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n        \"nombre\": \"John X\",\n        \"ap_paterno\": \"Dow\",\n        \"ap_materno\": \"Down\",\n        \"activo\": 1\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/controlEscolar/alumno",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"controlEscolar",
+						"alumno"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "calificacion",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"idAlumno\": 1,\n    \"idMateria\": 2,\n    \"calificacion\": 9.9\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/controlEscolar/calificacion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"controlEscolar",
+						"calificacion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "calificacion by idAlumno",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/controlEscolar/calificacion/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"controlEscolar",
+						"calificacion",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "alumnos",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/controlEscolar/alumnos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"controlEscolar",
+						"alumnos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "materias",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/controlEscolar/materias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"controlEscolar",
+						"materias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "calificacion",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/controlEscolar/calificacion/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"controlEscolar",
+						"calificacion",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "alumno",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/controlEscolar/alumno/24",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"controlEscolar",
+						"alumno",
+						"24"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
