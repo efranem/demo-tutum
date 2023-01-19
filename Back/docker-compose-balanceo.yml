@@ -1,0 +1,19 @@
+version: '3.7'
+services:
+  microservice:
+    image: dai/tutumback:1.0.0
+    expose:
+      - 8088
+  loadbalancer:
+    image: dockercloud/haproxy:latest
+    links:
+      - microservice
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - 8010:80
+networks:
+  default:
+    ipam:
+      config:
+      - subnet: 172.18.0.0/16

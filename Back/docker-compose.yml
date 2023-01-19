@@ -1,0 +1,13 @@
+version: '3.7'
+services:
+  app:
+    container_name: tutumback
+    build: .
+    image: dai/tutumback:1.0.0
+    ports:
+      - "8088:8080"
+    network_mode: bridge
+    extra_hosts:
+      - "telcel.di.sds.oficinarquitectura.prod02:10.191.143.156"
+      - "telcel.di.sds.oficinarquitectura.prod:10.191.143.155"
+      
