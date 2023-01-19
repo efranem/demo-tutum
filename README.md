@@ -20,6 +20,9 @@ Se adjunta el archivo docker-compose.yml que contiene la configuracion para leva
 
 3. Se adjunta el archivo **db.sql** con las querys modificadas para ejecutarse de manera correcta en la BD
 
+
+----
+
 ### Levantar el Back
 
 
