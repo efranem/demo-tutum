@@ -14,7 +14,7 @@ Puede levantarse modo standalone para evitar el uso de un servidor de aplicaione
 
 #### USO
 
-1. Entrar a la carpeta *Back*
+1. Entrar a la carpeta **Back**
 
 2. Compilar la aplicacion con la siguiente instruccion
 
@@ -41,7 +41,7 @@ Creado con **React** y **PrimeReact** como framework de estilos y utilerias
 
 #### USO
 
-1. Entrar a la carpeta *Front*
+1. Entrar a la carpeta **Front**
 
 2. Instalar las dependencias necesarias
 
@@ -54,6 +54,6 @@ Creado con **React** y **PrimeReact** como framework de estilos y utilerias
   ``` batch
     npm start
   ```
-3. Se expondra por default en la direccion web http://localhost:3000/proveedores#/home
+3. Se expondra por default en la direccion web http://localhost:3000/
 
 4. Esta configurado para buscar el API anteriormente configurado
